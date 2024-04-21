@@ -10,6 +10,12 @@ else
 fi 
 
 for i in $@
-do 
+do  
    echo "Packages to Install:$i"
+   dnf list installed $i &>>$LOGFILE
+   if [ $? -ne 0]
+   then 
+        echo "Already Installed..skipping:
+    fi
+
 done
