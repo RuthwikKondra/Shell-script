@@ -16,11 +16,11 @@ fi
 
 for i in $@
 do  
-   echo "package to install: $i"
-   dnf list installed $i &>>$LOGFILE 
-   if [ $? -ne 0 ]
-   then 
-        echo "Already installed..skipping"
+    echo "package to install: $i"
+    dnf list installed $i &>>$LOGFILE 
+    if [ $? -ne 0 ]
+    then 
+        echo  -e "$i Already installed.. $Y skipping $N"
     else
         echo "$i not installed..Need to install"
     fi
