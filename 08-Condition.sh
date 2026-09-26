@@ -4,9 +4,9 @@ echo "Please Enter the Number:"
 
 read -s $Number
 
-if ($Number -gt 10 ) then
-echo "The sumber is lesser than zero"
+if ( $Number -gt 10 ) then
+echo "The given $Number is less then 10"
 else
-echo "given number is greater than the given number"
+echo "The given $Number is greater  then 10"
 fi
 
