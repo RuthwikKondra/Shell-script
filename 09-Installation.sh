@@ -11,7 +11,9 @@ else
     exit 1
 fi
 
-dnf install MYSQL -y
+apt-get update -y
+
+apt-get install mysql-server -y
 
 if [ ?$ -ne 0 ]
 then
@@ -22,7 +24,7 @@ else
     exit 1
 fi
 
-dnf install git -y
+apt-get install git -y
 
 if [ ?$ -ne 0 ]
 then
