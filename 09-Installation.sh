@@ -1,8 +1,8 @@
 #!/bin/bash
 
-USER="$(id- u)"
+USER=$(id -u)
 
-if [ "$USER" -ne 0 ]
+if [ $USER -ne 0 ]
 then
     echo "Please Run this script with root access"
     exit 1
@@ -32,3 +32,4 @@ else
     echo "Installation of Git Sucessfull.."
     exit 1
 fi
+
