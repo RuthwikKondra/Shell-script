@@ -2,7 +2,7 @@
 
 echo "Please Enter the Number:"
 
-read -s $Number
+read  $Number
 
 if ( $Number -gt 10 ) then
 echo "The given $Number is less then 10"
