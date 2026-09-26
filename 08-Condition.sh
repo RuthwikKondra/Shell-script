@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Please Enter the Number:: 5"
+echo "Please Enter the Number:: $5"
 
 if [ "$Number" -gt 10 ]; then
 echo "The given $Number is greater  then 10"
