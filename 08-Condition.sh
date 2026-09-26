@@ -1,12 +1,12 @@
 #!/bin/bash
 
-NUMBER=$1
+echo "Please Enter the Number:"
 
-if [ $NUMBER -gt 10]
-then
-    echo "Given Number $NUBER is grester than 10"
+read -s $Number
+
+if ($Number -ge 10 ) then
+echo "The sumber is lesser than zero"
 else
-    echo "Given number $NUMBER is less than 10"
+echo "given number is greater than the given number"
 fi
 
-#-gt , _lt, -eq,-ge,-le
