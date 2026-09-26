@@ -11,7 +11,7 @@ else
     exit 1
 fi
 
-dnf install -y
+dnf install MYSQL -y
 
 if [ ?$ -ne 0 ]
 then
