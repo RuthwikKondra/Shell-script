@@ -2,10 +2,10 @@
 
 echo "Enter Username:"
 
-read USERNAME
+read -s USERNAME
 
 echo "Enter Passwd:"
 
-read Passwd
+read -s Passwd
 
 echo "username is::$USERNAME && passwd is::$Passwd"
