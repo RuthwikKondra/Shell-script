@@ -2,7 +2,7 @@
 
 echo "Please Enter the Number: 5"
 
-if [ $Number -gt 10 ]; then
+if [ "$Number" -gt 10 ]; then
 echo "The given $Number is greater  then 10"
 else
 echo "The given $Number is less then 10"
