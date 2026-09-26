@@ -8,4 +8,4 @@ echo "Current User: $USER"
 echo "Current HomeDirectory: $HOME"
 echo "Process ID of the current shell script: $$"
 sleep 30 &
-echo "Process ID of the last background command: $!
+echo "Process ID of the last background command: $!"
