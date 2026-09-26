@@ -1,9 +1,11 @@
 #!/bin/bash
 
-PERSON1=Ramesh
-PERSON2=Suresh
+Person1= Ramesh
+Person2 = Suresh
 
-echo "$PERSON1:: Hello $PERSON2, How are you?"
-echo "$PERSON2:: Hi $PERSON1, I am fine .How are you?"
-echo "$PERSON1:: I am fine to. how is your work?"
-echo "$PERSON2:: not bad.I am thinking to upgrade to Devops"
+Person1 = Hi Ramesh, How are you?
+Person2 = Hi Suresh, I am fine to.
+Person1 = How is your Devops Practice is going onn.
+Person2 = Currently Practising shell scripting.
+Person1 = Great, Practice well shell scripting well beacuse it is the main tool we will use to automate any tasks in daily life.
+Person2 = Thanks, for advise.
